@@ -1,0 +1,2 @@
+# python-gcp-example
+pythonでgcsとbigqueryをいじる
