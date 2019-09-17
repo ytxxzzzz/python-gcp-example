@@ -26,7 +26,6 @@ def read_from_gcs(bucket_name: str, path: str) -> str:
     return blob.download_as_string()
 
 
-
 if __name__ == '__main__':
     write_to_gcs(GCS_BUCKET, GCS_PATH, "aaabbbccc")
     read_data = read_from_gcs(GCS_BUCKET, GCS_PATH)
